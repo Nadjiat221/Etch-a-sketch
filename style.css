@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blueviolet;
+  }
+  .header{
+    font-size: 24px;
+    color: aliceblue;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 320px; /* 16 squares x 20px each */
+    
+  }
+  
+  .square {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+#reset-btn{
+  width: 150px;
+  height: 50px;
+  background-color:wheat;
+  border: none;
+  border-radius: 8px;
+}  
